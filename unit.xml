@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0010" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-04-16T16:32:13" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="sample_tests" timestamp="2020-04-16T16:32:13" tests="1" file="C:\Users\jcoll\Documents\projects\express_exercise\test\test.js" time="0.0010" failures="0">
+    <testcase name="sample_tests test 0" time="0.0010" classname="test 0">
+    </testcase>
+  </testsuite>
+</testsuites>
