@@ -1,12 +1,11 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
-var uuid = require('uuid');
 
 let trades = new Schema({
-    id: { type: String, default: uuid.v1()},
+    id: Number ,
     type: String,
     user: {
-        id: { type: String, default: uuid.v1()},
+        id: Number ,
         name: String ,
     },
     symbol:  String ,

@@ -31,7 +31,6 @@
     "mongoose-unique-validator": "^2.0.3",
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2",
-    "underscore": "^1.9.1",
-    "uuid": "^7.0.3"
+    "underscore": "^1.9.1"
   }
 }
