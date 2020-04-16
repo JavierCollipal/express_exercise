@@ -4,7 +4,7 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var mongoose = require('mongoose');
 var index = require('./routes/index');
 var erase = require('./routes/erase');
 var trades = require('./routes/trades');
@@ -47,5 +47,13 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-
+mongoose
+    .connect('mongodb://localhost:27017/exercise', {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+      useCreateIndex: true,
+      useFindAndModify: false,
+    })
+    .then(console.log('Data base online'))
+    .catch(error => console.log(error));
 module.exports = app;
