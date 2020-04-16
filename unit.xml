@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.7510" tests="4" failures="4">
+  <testsuite name="Root Suite" timestamp="2020-04-16T17:42:18" tests="0" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="trades_test " timestamp="2020-04-16T17:42:18" tests="4" file="C:\Users\jcoll\Documents\projects\express_exercise\test\test0.js" time="0.7510" failures="4">
+    <testcase name="trades_test  Get all trades" time="0.3710" classname="Get all trades">
+      <failure message="expected 404 to equal 200" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 200
+    at test\test0.js:174:44
+    at tryCatcher (node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21)]]></failure>
+    </testcase>
+    <testcase name="trades_test  Get trades by user id" time="0.1550" classname="Get trades by user id">
+      <failure message="expected 404 to equal 200" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 200
+    at test\test0.js:174:44
+    at tryCatcher (node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21)]]></failure>
+    </testcase>
+    <testcase name="trades_test  Get trades by trade type" time="0.1100" classname="Get trades by trade type">
+      <failure message="expected 404 to equal 200" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 200
+    at test\test0.js:174:44
+    at tryCatcher (node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21)]]></failure>
+    </testcase>
+    <testcase name="trades_test  Get stock price" time="0.1150" classname="Get stock price">
+      <failure message="expected 404 to equal 200" type="AssertionError"><![CDATA[AssertionError: expected 404 to equal 200
+    at test\test0.js:174:44
+    at tryCatcher (node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (node_modules\bluebird\js\release\promise.js:729:18)
+    at _drainQueueStep (node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:439:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

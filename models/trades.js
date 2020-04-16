@@ -10,7 +10,7 @@ let trades = new Schema({
     },
     symbol:  String ,
     shares: Number ,
-    price: mongoose.Decimal28 ,
+    price: Number,
     timestamp : { type : Date, default: Date.now }
 });
 
