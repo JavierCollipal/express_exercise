@@ -20,6 +20,6 @@
     "mocha-multi-reporters": "^1.1.4",
     "chai": "^4.1.1",
     "chai-as-promised": "^7.1.1",
-    "chai-http": "^3.0.0"
+    "chai-http": "^4.3.0"
   }
 }
